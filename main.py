@@ -33,14 +33,14 @@ def send_telegram_message(bot_token, chat_id, message):
 def is_within_target_time():
     """
     Kontrollera om det är rätt tid att skicka meddelandet
-    Måltid: 19:54 svensk tid.
+    Måltid: 11:02 svensk tid.
     """
     stockholm_tz = pytz.timezone('Europe/Stockholm')
     now_stockholm = datetime.now(stockholm_tz)
     
     # Måltid i svensk tid
-    target_hour = 19
-    target_minute = 54
+    target_hour = 11
+    target_minute = 02
     
     print(f"🕐 Svensk tid nu: {now_stockholm.strftime('%H:%M:%S')}")
     
