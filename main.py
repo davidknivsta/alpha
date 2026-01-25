@@ -40,7 +40,7 @@ def is_within_target_time():
     
     # Måltid i svensk tid
     target_hour = 11
-    target_minute = 02
+    target_minute = 2
     
     print(f"🕐 Svensk tid nu: {now_stockholm.strftime('%H:%M:%S')}")
     
