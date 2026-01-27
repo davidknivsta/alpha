@@ -1,4 +1,4 @@
-name: Daily Telegram Message
+name: Daily Alpha Message
 
 on:
   schedule:
