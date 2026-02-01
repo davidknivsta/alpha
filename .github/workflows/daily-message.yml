@@ -3,9 +3,9 @@ name: Daily Alpha Message
 on:
   schedule:
     # Kör varje dag kl 11:02 UTC (11:02 svensk tid)
-    - cron: '02 09 * * *' #Sommartid
-    - cron: '02 10 * * *' #Normaltid
-    - cron: '10 15 * * *' #Normaltid
+    - cron: '45 08 * * *' #Sommartid
+    - cron: '45 09 * * *' #Normaltid
+    #- cron: '10 15 * * *' #Normaltid
   
   # Tillåt manuell körning för testning
   workflow_dispatch:
