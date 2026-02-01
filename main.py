@@ -59,7 +59,7 @@ def is_within_target_time():
     time_diff = abs(current_minutes - target_minutes)
     
     # --- MANUELL DEBUG ---
-    debug = True  # <--- Sätt till False när du är klar!
+    debug = False  # <--- Sätt till False när du är klar!
     
     if time_diff <= 40 or debug:
         if debug:
