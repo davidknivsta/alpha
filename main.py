@@ -53,8 +53,8 @@ def is_within_target_time():
     
     time_diff = abs(current_minutes - target_minutes)
 
-    #debug = True #kan köra alla tider för test
-    debug = False #normalbeteende
+    debug = True #kan köra alla tider för test
+    #debug = False #normalbeteende
     
     if time_diff <= 40 or debug:
         print("✅ Inom tidsramen - kör!")
